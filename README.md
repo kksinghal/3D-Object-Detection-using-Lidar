@@ -91,10 +91,10 @@ The object detection methods used in this project use pre-trained models which h
 
 ### Sample Point clouds
 
-| ![](images/cam_1.png)  |  ![](images/lidar_1.png) |
+| ![](images/cam_1.jpeg)  |  ![](images/lidar_1.png) |
 :-------------------------:|:-------------------------:
-| ![](images/cam_2.png)  |  ![](images/lidar_2.png) |
-| ![](images/cam_3.png)  |  ![](images/lidar_3.png) |
+| ![](images/cam_2.jpeg)  |  ![](images/lidar_2.png) |
+| ![](images/cam_3.jpeg)  |  ![](images/lidar_3.png) |
 
 
 As from the above images, there are many features that can contribute in deciding whether a vehicle is present or not, like overall shape, rear bumper, bonnet, sometimes tyre, rear reflectors, rear lights. Also, since laser scans are directional, only a portion directly exposed to lidar is visible. In many cases, only back, front, or one side of vehicle is visible.
