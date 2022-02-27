@@ -134,6 +134,7 @@ def post_processing(detections, configs):
             # Filter by conf_thresh
             if len(top_preds[j]) > 0:
                 keep_inds = (top_preds[j][:, 0] > configs.conf_thresh)
+                print("Oye", top_preds[j][:, 0])
                 top_preds[j] = top_preds[j][keep_inds]
         ret.append(top_preds)
 

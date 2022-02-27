@@ -98,3 +98,18 @@ The object detection methods used in this project use pre-trained models which h
 
 
 As from the above images, there are many features that can contribute in deciding whether a vehicle is present or not, like overall shape, rear bumper, bonnet, sometimes tyre, rear reflectors, rear lights. Also, since laser scans are directional, only a portion directly exposed to lidar is visible. In many cases, only back, front, or one side of vehicle is visible.
+
+
+### BEV (Birds Eye View) channels
+
+| ![](images/intensity_map.jpeg)  |  ![](images/height_map.jpeg) |
+:-------------------------:|:-------------------------:
+| Intensity Map  |  Height Map |
+| ![](images/density_map.jpeg)  |  ![](images/bev.jpeg) |
+| Density Map  |  Final BEV Map |
+
+
+### Object Detection Result
+| ![](images/detection1.jpeg)  |  ![](images/detection2.jpeg) |
+:-------------------------:|:-------------------------:
+| ![](images/detection3.jpeg)  |  ![](images/detection4.jpeg) |
