@@ -102,14 +102,26 @@ As from the above images, there are many features that can contribute in decidin
 
 ### BEV (Birds Eye View) channels
 
-| ![](images/intensity_map.jpeg)  |  ![](images/height_map.jpeg) |
-:-------------------------:|:-------------------------:
 | Intensity Map  |  Height Map |
-| ![](images/density_map.jpeg)  |  ![](images/bev.jpeg) |
+:-------------------------:|:-------------------------:
+| ![](images/intensity_map.jpeg)  |  ![](images/height_map.jpeg) |
+
+
+
 | Density Map  |  Final BEV Map |
+:-------------------------:|:-------------------------:
+| ![](images/density_map.jpeg)  |  ![](images/bev.jpeg) |
 
 
-### Object Detection Result
+
+
+### Object Detection Results
+
 | ![](images/detection1.jpeg)  |  ![](images/detection2.jpeg) |
 :-------------------------:|:-------------------------:
+
+
+
 | ![](images/detection3.jpeg)  |  ![](images/detection4.jpeg) |
+:-------------------------:|:-------------------------:
+
