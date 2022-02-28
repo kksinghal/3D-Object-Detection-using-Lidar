@@ -49,7 +49,7 @@ def load_configs_model(model_name='fpn_resnet', configs=None):
     # set parameters according to model type
     if model_name == "darknet":
         configs.model_path = os.path.join(parent_path, 'tools', 'objdet_models')
-        configs.pretrained_filename = os.path.join(configs.model_path, 'pretrained', 'fpn_resnet_18_epoch_300.pth')
+        configs.pretrained_filename = os.path.join(configs.model_path, 'pretrained', 'complex_yolov4_mse_loss.pth')
         configs.arch = 'darknet'
         configs.batch_size = 4
         configs.cfgfile = os.path.join(configs.model_path, 'config', 'complex_yolov4.cfg')
@@ -104,7 +104,9 @@ def load_configs_model(model_name='fpn_resnet', configs=None):
 
     else:
         raise ValueError("Error: Invalid model name")
-
+    
+    configs.min_iou = 0.5
+    
     # GPU vs. CPU
     configs.no_cuda = True # if true, cuda is not used
     configs.gpu_idx = 0  # GPU index to use.

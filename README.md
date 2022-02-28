@@ -117,6 +117,9 @@ As from the above images, there are many features that can contribute in decidin
 
 ### Object Detection Results
 
+In this project, I have used the pretrained resnet [SFA3D](https://github.com/maudzung/SFA3D). 
+
+
 | ![](images/detection1.jpeg)  |  ![](images/detection2.jpeg) |
 :-------------------------:|:-------------------------:
 
@@ -125,3 +128,6 @@ As from the above images, there are many features that can contribute in decidin
 | ![](images/detection3.jpeg)  |  ![](images/detection4.jpeg) |
 :-------------------------:|:-------------------------:
 
+
+
+![](images/stats.png)
