@@ -117,7 +117,7 @@ As from the above images, there are many features that can contribute in decidin
 
 ### Object Detection Results
 
-In this project, I have used the pretrained resnet [SFA3D](https://github.com/maudzung/SFA3D). 
+In this project, I have used the pretrained fpn_resnet model [SFA3D](https://github.com/maudzung/SFA3D). 
 
 
 | ![](images/detection1.jpeg)  |  ![](images/detection2.jpeg) |
@@ -129,5 +129,6 @@ In this project, I have used the pretrained resnet [SFA3D](https://github.com/ma
 :-------------------------:|:-------------------------:
 
 
+### Achieved over 100 frames: Precision = 1.0, Recall = 0.85294
 
 ![](images/stats.png)
