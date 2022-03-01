@@ -94,7 +94,8 @@ The object detection methods used in this project use pre-trained models which h
 | ![](images/cam_1.jpeg)  |  ![](images/lidar_1.png) |
 :-------------------------:|:-------------------------:
 | ![](images/cam_2.jpeg)  |  ![](images/lidar_2.png) |
-| ![](images/cam_3.jpeg)  |  ![](images/lidar_3.png) |
+| ![](images/lidar_3.png)  |  ![](images/lidar_4.png) |
+| ![](images/lidar_5.png)  |  ![](images/lidar_6.png) |
 
 
 As from the above images, there are many features that can contribute in deciding whether a vehicle is present or not, like overall shape, rear bumper, bonnet, sometimes tyre, rear reflectors, rear lights. Also, since laser scans are directional, only a portion directly exposed to lidar is visible. In many cases, only back, front, or one side of vehicle is visible.
@@ -117,7 +118,7 @@ As from the above images, there are many features that can contribute in decidin
 
 ### Object Detection Results
 
-In this project, I have used the pretrained fpn_resnet model [SFA3D](https://github.com/maudzung/SFA3D). 
+In this project, I have used the pretrained resnet [SFA3D](https://github.com/maudzung/SFA3D). 
 
 
 | ![](images/detection1.jpeg)  |  ![](images/detection2.jpeg) |
@@ -130,5 +131,7 @@ In this project, I have used the pretrained fpn_resnet model [SFA3D](https://git
 
 
 ### Achieved over 100 frames: Precision = 1.0, Recall = 0.85294
+
+
 
 ![](images/stats.png)
